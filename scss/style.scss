@@ -9,10 +9,23 @@ body {
     font-family: 'Inter', serif;
 }
 
+button {
+    cursor: pointer;
+}
+
 .container {
     padding: 0 10px;
     max-width: 1220px;
     margin: 0 auto;
+}
+
+.main {
+
+    &__title {
+        font-family: interBold;
+        font-size: 64px;
+        margin-bottom: 20px;
+    }
 }
 
 .header {
@@ -95,13 +108,69 @@ body {
 
 
 
+.choose-color {
+    padding: 45px 0 180px;
+    text-align: center;
 
+    &__title {
+        font-size: 36px;
+        font-family: InterBold;
+        max-width: 555px;
+        margin: 0 auto 20px;
+    }
 
+    &__text {
+        max-width: 555px;
+        margin: 0 auto 80px;
+    }
 
+    &__list {
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+    }
 
+    &__btn {
+        border: 1px solid #777;
+        border-radius: 20px;
+        padding: 50px 55px;
+    }
+}
 
+.composition {
+    margin-bottom: 180px;
+}
 
+.composition {
 
+    &__title {
+        text-align: center;
+    }
+
+    &__text {
+        max-width: 655px;
+        text-align: center;
+        margin: 0 auto 40px;
+    }
+
+    &__inner {
+        max-width: 625px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between
+    }
+
+    &__inner-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 15px;
+
+        & p {
+            max-width: 230px;
+        }
+    }
+}
 
 
 
