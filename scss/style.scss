@@ -177,7 +177,7 @@ button {
     padding: 80px 0 100px;
     text-align: center;
 
-    &__title {}
+
 
     &__text {
         margin: 0 auto 40px;
@@ -232,37 +232,6 @@ button {
     }
 }
 
-// .audio::before {
-//     content: '';
-//     position: absolute;
-//     background-image: url(../images/audio-bg.jpg);
-//     background-repeat: no-repeat;
-//     background-position: top center;
-//     background-size: cover;
-//     z-index: -2;
-//     top: 0;
-//     left: 0;
-//     right: 0;
-//     bottom: 0;
-//     width: 100%;
-//     height: 100%;
-// }
-
-// .audio::after {
-//     content: '';
-//     position: absolute;
-//     background-image: url(../images/sound.png);
-//     background-repeat: no-repeat;
-//     background-position: bottom center;
-//     background-size: cover;
-//     width: 100%;
-//     left: 0;
-//     right: 0;
-//     bottom: -250px;
-//     height: 150vh;
-//     z-index: -1;
-
-// }
 
 .btn {
     text-transform: uppercase;
@@ -281,7 +250,7 @@ button {
     text-align: center;
     font-family: interBold;
 
-    &__link {}
+
 
     &__text {
         padding: 20px 0;
@@ -292,10 +261,9 @@ button {
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 0 20px;
+        gap: 20px;
+        flex-wrap: wrap;
     }
-
-    &__item {}
 }
 
 
