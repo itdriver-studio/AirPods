@@ -95,10 +95,20 @@
     .header__top {
         align-items: flex-start;
     }
+    .logo{
+        position: relative;
+        top: -7px;
+    }
+
+    .menu__btn {
+        padding: 0;
+        font-size: 26px;
+        padding: 10px 0;
+    }
 
     .menu__list {
         flex-wrap: wrap;
-        gap: 20px 40px;
+        gap: 20px 45px;
     }
 
     .menu__item:first-child {
@@ -133,6 +143,7 @@
 
     .composition__inner-text p {
         max-width: 100%;
+        text-align: center;
     }
 }
 
